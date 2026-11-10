@@ -433,7 +433,7 @@ async function checkSpotify() {
 
             stopSpinning();
 
-            showStatus("Spotify idle");
+            showStatus("");
 
             return nextDelay;
         }
@@ -478,7 +478,7 @@ async function checkSpotify() {
 
             stopSpinning();
 
-            showStatus("Paused");
+            showStatus("");
         }
 
     } catch (error) {
